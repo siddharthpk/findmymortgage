@@ -46,4 +46,4 @@ const SliderComponent = ({
     )
 }
   
-export default SliderComponent
+export default SliderComponent;
