@@ -20,10 +20,9 @@ function App() {
     <Container maxWidth="xl" sx={{marginTop:4}}>
       <Grid container spacing={5} alignItems="center">
         <Grid item xs={12} md={6}>
-          {/*Add SliderSelect & TenureSelect once ready
-            <SliderSelect data={data} setData={setData} />
-            <TenureSelect data={data} setData={setData}/>
-          */}
+          {/*Add SliderSelect & TenureSelect once ready */}
+          <SliderSelect data={data} setData={setData} />
+          <TenureSelect data={data} setData={setData}/>
         </Grid>
         <Grid item xs={12} md={6}>
           {/*Add Result once ready
@@ -32,9 +31,8 @@ function App() {
         </Grid>
       </Grid>
     </Container>
-    Hello Everyone
     </div>
-  );
+  )
 }
 
 export default App;
